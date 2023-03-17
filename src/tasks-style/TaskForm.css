@@ -1,0 +1,33 @@
+/* Principal Estructure Form */
+
+.task-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Campo de texto */ 
+
+.task-input {
+  width: 350px;
+  font-size: 18px;
+  background-color: white;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #00471B;
+  outline: none;
+}
+
+/* Add Task Button */
+.task-button {
+  padding: 11px;
+  font-size: 23px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: #00471B;
+  color: white;
+  text-transform: capitalize;
+}
