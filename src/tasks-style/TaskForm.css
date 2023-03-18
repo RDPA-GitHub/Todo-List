@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
 :root {
   --Borde: gray;
-  --Fondo: #a9b5b8;
+  --Fondo: #c5c5c5;
 }
 /* Principal Estructure Form */
 
@@ -16,6 +18,9 @@
 .task-input {
   width: 350px;
   font-size: 18px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: gray;
+  font-weight: bold;
   background-color: var(--Fondo);
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;

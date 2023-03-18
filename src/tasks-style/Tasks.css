@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
 .tasks-container {
   width: 500px;
-  min-height: 65px;
-  background-color: #1B1B32;
+  min-height: 35px;
+  background-color: #3a5e75;
   margin: 5px 0;
   padding: 8px 15px 8px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 7px;
-  border: 1px solid white;
+  border: 1px solid gray;
   cursor: pointer;
+  box-shadow: 2px 2px 4px 2px rgba(133, 131, 131, 0.796);
 }
 
 /* Estilo para el Texto */
@@ -18,6 +21,8 @@
   width: 100%;
   height: 100%;
   font-size: 20px;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   display: flex;
   align-items: center;
   overflow-wrap: anywhere;
@@ -31,7 +36,14 @@
   margin: 5px;
 }
 
+.tasks-icon:hover {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  color: gray;
+}
+
 .tasks-container.completada {
-  background-color: #5A01A7;
+  background-color: #b34040;
   text-decoration: line-through;
 }

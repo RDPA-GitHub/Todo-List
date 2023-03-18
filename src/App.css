@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,12 +15,13 @@ body {
 }
 
 h1 {
-  color: #1B1B32;
+  color: #32261b;
   font-size: 25px;
   font-family: Roboto, sans-serif;
   text-align: center;
   font-weight: bold;
   margin: 15px 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .task-applications {
@@ -32,11 +35,12 @@ h1 {
 .tasks-list-principal {
   width: 600px;
   min-height: 500px;
-  background-color: #a9b5b8;
+  background-color: #c5c5c5;
   padding: 25px;
   margin: 10px;
   justify-content: center;
   border-radius: 26px;
+  box-shadow: 2px 2px 4px 2px rgb(36, 35, 35);
 }
 
 .container-logo {
