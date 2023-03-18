@@ -1,5 +1,5 @@
 import React from "react";
-import TaskForm from "./DataTask/TaskForm";
+import TaskList from "./DataTask/TaskList";
 import "../tasks-style/Tasks.css";
 
 
@@ -8,7 +8,7 @@ const Tasks = () => {
     <div className="task-applications">
       <div className="tasks-list-principal">
         <h1>TODO LIST </h1>
-          <TaskForm />
+          <TaskList />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiOutlineViewGridAdd } from 'react-icons/hi';
+import { FiSend } from 'react-icons/fi';
 import '../../tasks-style/TaskForm.css';
 
 const TaskForm = () => {
@@ -12,7 +12,7 @@ const TaskForm = () => {
         name='texto'
       />
       <button className="task-button">
-        <HiOutlineViewGridAdd />
+        <FiSend />
       </button>
     </form>
   );
