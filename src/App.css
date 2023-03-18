@@ -6,7 +6,7 @@
 
 html,
 body {
-  background-color: rgb(24, 28, 39);
+  background-color: #464646;
   color: white;
   font-family: Lato, sans-serif;
   /*margin-top: 40px;*/
@@ -32,7 +32,7 @@ h1 {
 .tasks-list-principal {
   width: 600px;
   min-height: 500px;
-  background-color: #D0D0D5;
+  background-color: #a9b5b8;
   padding: 25px;
   margin: 10px;
   justify-content: center;

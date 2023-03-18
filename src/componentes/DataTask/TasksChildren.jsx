@@ -2,13 +2,17 @@ import React from "react";
 import {AiOutlineCloseCircle} from 'react-icons/ai';
 
 
-const TasksChildren = ({texto, completada}) => {
+const TasksChildren = ({id, texto, completada, completarTarea, eliminarTarea}) => {
   return (
     <div className={completada ? 'tasks-container completada' :  'tasks-container'}>
-      <div className="tasks-text">
+      <div className="tasks-text"
+        onClick={() => completarTarea(id)}
+      >
         {texto}
       </div>
-      <div className="tasks-icon-container">
+      <div className="tasks-icon-container"
+        onClick={() => eliminarTarea(id)}
+      >
         <AiOutlineCloseCircle className="tasks-icon"/>
       </div>
     </div>
