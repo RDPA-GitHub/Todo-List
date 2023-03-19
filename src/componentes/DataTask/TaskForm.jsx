@@ -10,7 +10,6 @@ const TaskForm = ({onSubmit}) => {
 
   const manejarCambio = e => {
     setInput(e.target.value);
-    
   }
 
   const manejarEnvio = e => {
@@ -23,22 +22,28 @@ const TaskForm = ({onSubmit}) => {
       completada: false
     }
     onSubmit(tareaNueva);
+    setInput("")
+
   }
+
+
   //-------------------------------------------------------------------------------
   return (
     <form
-      action=""
-      className="task-form"
-      onSubmit={manejarEnvio}
+    action=""
+    className="task-form"
+    onSubmit={manejarEnvio}
     >
       <input
         type="text"
         className="task-input"
         placeholder='Ingrese una Tarea'
-        name='texto'
+        name='texto'  
+        value={input}
         onChange={manejarCambio}
-      />
+        />
       <button className="task-button" title='Agregar Tarea'>
+        
         <FiSend />
       </button>
     </form>

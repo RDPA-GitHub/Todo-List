@@ -7,8 +7,9 @@ const TasksChildren = ({id, texto, completada, completarTarea, eliminarTarea}) =
     <div className={completada ? 'tasks-container completada' :  'tasks-container'}>
       <div className="tasks-text"
         onClick={() => {
-          completarTarea(id)
-          completada ? alert("Tarea Incompleta") :  alert("Tarea Completa")}}
+          completarTarea(id);
+          completada ? alert("Tarea Incompleta") :  alert("Tarea Completa");
+        }}
       >
         {texto}
       </div>

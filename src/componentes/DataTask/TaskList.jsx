@@ -15,7 +15,7 @@ const TaskList = () => {
       const tareasActualizadas = [tarea, ...tareas];
       setTareas(tareasActualizadas);
     }
-    console.log(tarea);
+    
   }
 
 // Eliminando Tarea
