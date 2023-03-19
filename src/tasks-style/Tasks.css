@@ -40,10 +40,10 @@
   width: 25px;
   height: 25px;
   margin: 5px;
-  color: gray;
+  color: rgb(255, 60, 60);
 }
 
 .tasks-container.completada {
-  background-color: #b34040;
+  background-color: #40b36a;
   text-decoration: line-through;
 }

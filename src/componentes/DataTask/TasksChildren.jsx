@@ -1,5 +1,5 @@
 import React from "react";
-import {AiOutlineCloseCircle} from 'react-icons/ai';
+import {TfiTrash} from 'react-icons/tfi';
 
 
 const TasksChildren = ({id, texto, completada, completarTarea, eliminarTarea}) => {
@@ -8,7 +8,7 @@ const TasksChildren = ({id, texto, completada, completarTarea, eliminarTarea}) =
       <div className="tasks-text"
         onClick={() => {
           completarTarea(id);
-          completada ? alert("Tarea Incompleta") :  alert("Tarea Completa");
+          completada ? alert("Tarea Incompleta") :  alert("Completar Tarea");
         }}
       >
         {texto}
@@ -16,7 +16,7 @@ const TasksChildren = ({id, texto, completada, completarTarea, eliminarTarea}) =
       <div className="tasks-icon-container"
         onClick={() => eliminarTarea(id)}
       >
-        <AiOutlineCloseCircle className="tasks-icon"/>
+        <TfiTrash className="tasks-icon"/>
       </div>
     </div>
   );
